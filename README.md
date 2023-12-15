@@ -1,20 +1,20 @@
-### Rust Thread Test
+# Rust Thread Test
 
 ![Rust](https://img.shields.io/badge/language-Rust-orange)
 
 This Rust Thread Test project is designed to explore multithreading in Rust by running a simple counter operation on multiple threads and measuring their performance. This isn't a great way to benchmark a CPU, but it most certainly counts to 100 million (on each logical processor) real fast!
 
-## Running the Code
+# Running the Code
 
-# Windows
+## Windows
 
 To run the program on Windows, you can download and run the executable, if you want to actually read the output before it closes I recommend running it from the command line or powershell.
 
-# Other (Mac/Linux)
+## Other (Mac/Linux)
 
 You will need to build the executable on your platform.
 
-## Building an executable
+# Building an executable
 
 ```bash
 git clone https://github.com/seanpatrickduggan/rust_thread_test.git
@@ -28,13 +28,13 @@ cd rust_thread_test
 cargo build
 ```
 
-## Running the executable
+# Running the executable
 ```bash
 cargo run
 ```
 
 
-## Output
+# Output
 ```bash
 Sorting by cpu #:
 CPU 0: Counter = 100000000, Time elapsed = 0.71498810 seconds
